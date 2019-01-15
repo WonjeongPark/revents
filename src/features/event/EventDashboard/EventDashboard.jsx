@@ -103,7 +103,7 @@ class EventDashboard extends Component {
     const updatedEvents = [...this.state.events, newEvent];
     this.setState({
       events : updatedEvents,
-      inOpen: false
+      isOpen: false
     })
   }
 
