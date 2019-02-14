@@ -14,7 +14,6 @@ import { Segment, Form, Button } from 'semantic-ui-react'
   state = {
     event: emptyEvent
   }
-
   componentDidMount() {
     if (this.props.selectedEvent !== null) {
       this.setState({
